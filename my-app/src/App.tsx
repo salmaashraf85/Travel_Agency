@@ -1,11 +1,11 @@
 import { CssBaseline } from "@mui/material";
-import { ReviewsSection } from "./sections/ReviewsSection";
+import LandingPage from "./pages/LandingPage";
 
 function App() {
   return (
     <>
       <CssBaseline />
-      <ReviewsSection />
+      <LandingPage />
     </>
   );
 }
