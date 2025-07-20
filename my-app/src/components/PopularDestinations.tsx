@@ -1,8 +1,7 @@
-import React from "react";
-import { Box, Typography, Grid,Button } from "@mui/material";
+import { Box, Typography, Button } from "@mui/material";
 import { DestinationList } from "../api/DestinationList";
 import { DestinationCard } from "./DestinationCard";
-
+import Grid from '@mui/material/Grid';
 export const PopularDestinations = () => {
   return (
     <Box sx={{ mt: { sm: "200px", xs: "500px" }, textAlign: "left" }}>

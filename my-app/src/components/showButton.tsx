@@ -1,4 +1,3 @@
-import React from "react";
 import { Box, Button, useMediaQuery, useTheme } from "@mui/material";
 import PaperPlane from "../assets/Paper Plane.png";
 

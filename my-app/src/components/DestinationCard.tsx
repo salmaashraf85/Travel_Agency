@@ -1,13 +1,8 @@
-import React from "react";
 import {
-  Tabs,
-  Tab,
-  Box,
   Typography,
   Card,
   CardMedia,
   CardContent,
-  Grid,
 } from "@mui/material";
 import type { DestinationCardProps } from "../types/destination";
 export const DestinationCard = ({ city, image }: DestinationCardProps) => {

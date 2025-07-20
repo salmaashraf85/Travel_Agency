@@ -1,5 +1,4 @@
-import { Box, Button, Typography } from "@mui/material";
-import React from "react";
+import { Box,  Typography } from "@mui/material";
 export const HeroText = () => {
   return (
           <Box sx={{ textAlign: "center", mb: 4, pt: 12 }}>
