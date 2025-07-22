@@ -12,6 +12,7 @@ export const Header = () => {
         pt: 4,
         justifyContent: "space-between",
         gap: { xs: 2, sm: 0 },
+        px: '5%',
       }}
     >
       <Box

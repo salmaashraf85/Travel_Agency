@@ -5,6 +5,7 @@ import { Header } from "./Header";
 import {HeroText} from "./HeroText";
 export const HeroSection = () => {
   return (
+     <Box sx={{width:'100%' , margin: '0 auto'}}>
     <Box
       sx={{
         backgroundImage: `url(${backgroundImg})`,
@@ -12,10 +13,8 @@ export const HeroSection = () => {
         backgroundPosition: "center",
         color: "white",
         position: "relative",
-        px: 4,
         display: "flex",
         flexDirection: "column",
-        width: "90vw",
         borderRadius: 10,
       }}
     >
@@ -32,24 +31,27 @@ export const HeroSection = () => {
         }}
       />
 
-      <Box sx={{ zIndex: 2, maxWidth: "1200px", mx: "auto", width: "100%" }}>
+      <Box sx={{ zIndex: 2, m: "auto 0"}}>
         <Box sx={{ zIndex: 2 }}>
           <Header />
           </Box>
             <HeroText />
           <Box
             sx={{
-              width: "100%",
               height: "280px",
               backgroundColor: "white",
               borderRadius: 6,
               transform: { xs: "translateY(80%)", sm: "translateY(60%)" },
+              px: 2,
+              width: { xs: "85%", sm: "90%" },
+              m: "auto",
             }}
           >
             <BookForm></BookForm>
           </Box>
         </Box>
       </Box>
+     </Box> 
   
   );
 };

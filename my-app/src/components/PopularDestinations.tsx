@@ -24,7 +24,7 @@ export const PopularDestinations = () => {
         <Button sx={{backgroundColor:'white',textTransform:'none',color:'black', border: "1px solid #8DD3BB"}}> See more places </Button>
       </Box>
 
-      <Grid container spacing={4} sx={{ mt: 3, ml: 2 }}>
+      <Grid container spacing={4} sx={{ mt: 3}}>
         {DestinationList.map((destination, index) => (
           <Grid item xs={12} sm={6} md={4} key={index}>
             <DestinationCard
